@@ -1,0 +1,240 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>test.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="./assets/css/style.css">
+<link rel="stylesheet" href="./assets/img/">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {font-family: "Lato", sans-serif}
+.mySlides {display: none}
+</style>
+</head>
+<body>
+
+<!-- Navbar -->
+<div class="test-top">
+  <div class="test-bar test-black test-card">
+    <a class="test-bar-item test-button test-padding-large test-hide-medium test-hide-large test-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="#" class="test-bar-item test-button test-padding-large">HOME</a>
+    <a href="#band" class="test-bar-item test-button test-padding-large test-hide-small">BAND</a>
+    <a href="#tour" class="test-bar-item test-button test-padding-large test-hide-small">TOUR</a>
+    <a href="#contact" class="test-bar-item test-button test-padding-large test-hide-small">CONTACT</a>
+    <div class="test-dropdown-hover test-hide-small">
+      <button class="test-padding-large test-button" title="More">MORE <i class="fa fa-caret-down"></i></button>     
+      <div class="test-dropdown-content test-bar-block test-card-4">
+        <a href="#" class="test-bar-item test-button">Merchandise</a>
+        <a href="#" class="test-bar-item test-button">Extras</a>
+        <a href="#" class="test-bar-item test-button">Media</a>
+      </div>
+    </div>
+    <a href="javascript:void(0)" class="test-padding-large test-hover-red test-hide-small test-right"><i class="fa fa-search"></i></a>
+  </div>
+</div>
+
+<!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+<div id="navDemo" class="test-bar-block test-black test-hide test-hide-large test-hide-medium test-top" style="margin-top:46px">
+  <a href="#band" class="test-bar-item test-button test-padding-large" onclick="myFunction()">BAND</a>
+  <a href="#tour" class="test-bar-item test-button test-padding-large" onclick="myFunction()">TOUR</a>
+  <a href="#contact" class="test-bar-item test-button test-padding-large" onclick="myFunction()">CONTACT</a>
+  <a href="#" class="test-bar-item test-button test-padding-large" onclick="myFunction()">MERCH</a>
+</div>
+
+<!-- Page content -->
+<div class="test-content" style="max-width:2000px;margin-top:46px">
+
+  <!-- Automatic Slideshow Images -->
+  <div class="mySlides test-display-container test-center">
+    <img src="./assets/img/" style="width:100%">
+    <div class="test-display-bottommiddle test-container test-text-white test-padding-32 test-hide-small">
+      <h3>Los Angeles</h3>
+      <p><b>We had the best time playing at Venice Beach!</b></p>   
+    </div>
+  </div>
+  <div class="mySlides test-display-container test-center">
+    <img src="./assets/img/ny.jpg" style="width:100%">
+    <div class="test-display-bottommiddle test-container test-text-white test-padding-32 test-hide-small">
+      <h3>New York</h3>
+      <p><b>The atmosphere in New York is lorem ipsum.</b></p>    
+    </div>
+  </div>
+  <div class="mySlides test-display-container test-center">
+    <img src="./assets/img/chicago.jpg" style="width:100%">
+    <div class="test-display-bottommiddle test-container test-text-white test-padding-32 test-hide-small">
+      <h3>Chicago</h3>
+      <p><b>Thank you, Chicago - A night we won't forget.</b></p>    
+    </div>
+  </div>
+
+  <!-- The Band Section -->
+  <div class="test-container test-content test-center test-padding-64" style="max-width:800px" id="band">
+    <h2 class="test-wide">THE BAND</h2>
+    <p class="test-opacity"><i>We love music</i></p>
+    <p class="test-justify">We have created a fictional band website. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+      ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur
+      adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    <div class="test-row test-padding-32">
+      <div class="test-third">
+        <p>Name</p>
+        <img src="./assets/img/bandmember.jpg" class="test-round test-margin-bottom" alt="Random Name" style="width:60%">
+      </div>
+      <div class="test-third">
+        <p>Name</p>
+        <img src="./assets/img/bandmember.jpg" class="test-round test-margin-bottom" alt="Random Name" style="width:60%">
+      </div>
+      <div class="test-third">
+        <p>Name</p>
+        <img src="./assets/img/bandmember.jpg" class="test-round" alt="Random Name" style="width:60%">
+      </div>
+    </div>
+  </div>
+
+  <!-- The Tour Section -->
+  <div class="test-black" id="tour">
+    <div class="test-container test-content test-padding-64" style="max-width:800px">
+      <h2 class="test-wide test-center">TOUR DATES</h2>
+      <p class="test-opacity test-center"><i>Remember to book your tickets!</i></p><br>
+
+      <ul class="test-ul test-border test-white test-text-grey">
+        <li class="test-padding">September <span class="test-tag test-red test-margin-left">Sold out</span></li>
+        <li class="test-padding">October <span class="test-tag test-red test-margin-left">Sold out</span></li>
+        <li class="test-padding">November <span class="test-badge test-right test-margin-right">3</span></li>
+      </ul>
+
+      <div class="test-row-padding test-padding-32" style="margin:0 -16px">
+        <div class="test-third test-margin-bottom">
+          <img src="./assets/img/newyork.jpg" alt="New York" style="width:100%" class="test-hover-opacity">
+          <div class="test-container test-white">
+            <p><b>New York</b></p>
+            <p class="test-opacity">Fri 27 Nov 2016</p>
+            <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+            <button class="test-button test-black test-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">Buy Tickets</button>
+          </div>
+        </div>
+        <div class="test-third test-margin-bottom">
+          <img src="./assets/img/paris.jpg" alt="Paris" style="width:100%" class="test-hover-opacity">
+          <div class="test-container test-white">
+            <p><b>Paris</b></p>
+            <p class="test-opacity">Sat 28 Nov 2016</p>
+            <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+            <button class="test-button test-black test-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">Buy Tickets</button>
+          </div>
+        </div>
+        <div class="test-third test-margin-bottom">
+          <img src="./assets/img/sanfran.jpg" alt="San Francisco" style="width:100%" class="test-hover-opacity">
+          <div class="test-container test-white">
+            <p><b>San Francisco</b></p>
+            <p class="test-opacity">Sun 29 Nov 2016</p>
+            <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+            <button class="test-button test-black test-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">Buy Tickets</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Ticket Modal -->
+  <div id="ticketModal" class="test-modal">
+    <div class="test-modal-content test-animate-top test-card-4">
+      <header class="test-container test-teal test-center test-padding-32"> 
+        <span onclick="document.getElementById('ticketModal').style.display='none'" 
+       class="test-button test-teal test-xlarge test-display-topright">&times;</span>
+        <h2 class="test-wide"><i class="fa fa-suitcase test-margin-right"></i>Tickets</h2>
+      </header>
+      <div class="test-container">
+        <p><label><i class="fa fa-shopping-cart"></i> Tickets, $15 per person</label></p>
+        <input class="test-input test-border" type="text" placeholder="How many?">
+        <p><label><i class="fa fa-user"></i> Send To</label></p>
+        <input class="test-input test-border" type="text" placeholder="Enter email">
+        <button class="test-button test-block test-teal test-padding-16 test-section test-right">PAY <i class="fa fa-check"></i></button>
+        <button class="test-button test-red test-section" onclick="document.getElementById('ticketModal').style.display='none'">Close <i class="fa fa-remove"></i></button>
+        <p class="test-right">Need <a href="#" class="test-text-blue">help?</a></p>
+      </div>
+    </div>
+  </div>
+
+  <!-- The Contact Section -->
+  <div class="test-container test-content test-padding-64" style="max-width:800px" id="contact">
+    <h2 class="test-wide test-center">CONTACT</h2>
+    <p class="test-opacity test-center"><i>Fan? Drop a note!</i></p>
+    <div class="test-row test-padding-32">
+      <div class="test-col m6 test-large test-margin-bottom">
+        <i class="fa fa-map-marker" style="width:30px"></i> Chicago, US<br>
+        <i class="fa fa-phone" style="width:30px"></i> Phone: +00 151515<br>
+        <i class="fa fa-envelope" style="width:30px"> </i> Email: mail@mail.com<br>
+      </div>
+      <div class="test-col m6">
+        <form action="/action_page.php" target="_blank">
+          <div class="test-row-padding" style="margin:0 -16px 8px -16px">
+            <div class="test-half">
+              <input class="test-input test-border" type="text" placeholder="Name" required name="Name">
+            </div>
+            <div class="test-half">
+              <input class="test-input test-border" type="text" placeholder="Email" required name="Email">
+            </div>
+          </div>
+          <input class="test-input test-border" type="text" placeholder="Message" required name="Message">
+          <button class="test-button test-black test-section test-right" type="submit">SEND</button>
+        </form>
+      </div>
+    </div>
+  </div>
+  
+<!-- End Page Content -->
+</div>
+
+<!-- Image of location/map -->
+<img src="./assets/img/map.jpg" class="test-image test-greyscale-min" style="width:100%">
+
+<!-- Footer -->
+<footer class="test-container test-padding-64 test-center test-opacity test-light-grey test-xlarge">
+  <i class="fa fa-facebook-official test-hover-opacity"></i>
+  <i class="fa fa-instagram test-hover-opacity"></i>
+  <i class="fa fa-snapchat test-hover-opacity"></i>
+  <i class="fa fa-pinterest-p test-hover-opacity"></i>
+  <i class="fa fa-twitter test-hover-opacity"></i>
+  <i class="fa fa-linkedin test-hover-opacity"></i>
+  <p class="test-medium">Powered by <a href="https://www.testschools.com/testcss/default.asp" target="_blank">test.css</a></p>
+</footer>
+
+<script>
+// Automatic Slideshow - change image every 4 seconds
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 4000);    
+}
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("test-show") == -1) {
+    x.className += " test-show";
+  } else { 
+    x.className = x.className.replace(" test-show", "");
+  }
+}
+
+// When the user clicks anywhere outside of the modal, close it
+var modal = document.getElementById('ticketModal');
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+
+</body>
+</html>
